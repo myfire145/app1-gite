@@ -10,7 +10,7 @@ $(document).ready(function (e){
 	document.addEventListener ("pause",function(){
 		escribehistoria ('la app se pausó');
 	},false);//pause
-	document.addEventListener("resumen",fuction(){
+	document.addEventListener("resume",fuction(){
 		escribehistoria ('la app se reinicio');
 	},false);//resume
 	document.addEventListener("online",fuction(){
